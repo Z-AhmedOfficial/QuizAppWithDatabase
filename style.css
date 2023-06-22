@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.a{
+    outline: none;
+    border: 0;
+    font-size: 1.3em;
+    border-radius: 10px;
+}
+.btndiv{
+    text-align: center;
+
+}
+.btndiv .btnnext{
+        background-image: linear-gradient(to right, #8E0E00 0%, #1F1C18  51%, #8E0E00  100%);
+        margin: 10px;
+        width: 150px;
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;        
+        box-shadow: 0 0 20px black;
+        border-radius: 10px;
+}
+.btnnext:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+ }
+     
+.opt{
+    background-image: linear-gradient(to right, #8E0E00 0%, #1F1C18  51%, #8E0E00  100%);
+    color: white;
+    
+}
+.mh1{
+    background-image: linear-gradient(to right, #8E0E00 0%, #1F1C18  51%, #8E0E00  100%);
+    color: white;
+}
